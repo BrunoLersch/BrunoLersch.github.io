@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    margin: 0 ;
+}
+
+
+
+.navbar{
+    background-color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: cornsilk;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+    padding-right: 5vw;
+}
+
+.banner{
+    background-image: url();
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 40px;
+    height: 100px
+    
+}
+
+.texto{
+
+    color: white;
+    background-image: url(colorful-2174045.png);
+    background-size: cover;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+
+}
+
+.fotos{
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 50px;
+
+}
+.fotos img{
+    
+    height: 250px;
+}
+
+.contatos{
+    background-color: black;
+    color: white;
+    
+    padding: 20px;
+}
+
+.contatos a {
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+@media only screen and (max-width:700px) {
+    body{
+        font-size: 30px;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .contatos{
+        padding: 10px;
+        
+    }
+
+.fotos{
+    padding: 10px;
+}
+
+.fotos img{
+      width: 100%;
+      height: auto;
+}
+
+
+}
+
+/*MENU PRETO */
+a {
+    text-decoration: none;
+    color: inherit;
+}
